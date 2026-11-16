@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with http://www.physicseditor.de -->
+<bodydef version="1.0">
+	<bodies>
+
+		<body name="circle">
+            <anchorpoint>0.5000,0.5000</anchorpoint>
+			<fixtures>
+
+				<fixture>
+					<density>10</density>
+					<friction>0.30000000000000004</friction>
+					<restitution>0</restitution>
+					<filter_categoryBits>1</filter_categoryBits>
+					<filter_groupIndex>0</filter_groupIndex>
+					<filter_maskBits>65535</filter_maskBits>
+					<fixture_type>CIRCLE</fixture_type>
+
+
+                    <circle r="74.007" x="0.010" y="-0.010"/>
+
+				</fixture>
+
+			</fixtures>
+		</body>
+
+		<body name="rect">
+            <anchorpoint>0.5000,0.5000</anchorpoint>
+			<fixtures>
+
+				<fixture>
+					<density>10</density>
+					<friction>0.35</friction>
+					<restitution>0</restitution>
+					<filter_categoryBits>1</filter_categoryBits>
+					<filter_groupIndex>0</filter_groupIndex>
+					<filter_maskBits>65535</filter_maskBits>
+					<fixture_type>POLYGON</fixture_type>
+
+
+					<polygons>
+
+                        <polygon>  74.0000, -74.0000  ,  74.0000, 74.0000  ,  -74.0000, 74.0000  ,  -74.0000, -74.0000 </polygon>
+
+					</polygons>
+
+				</fixture>
+
+			</fixtures>
+		</body>
+
+		<body name="triangle">
+            <anchorpoint>0.3310,0.3310</anchorpoint>
+			<fixtures>
+
+				<fixture>
+					<density>10</density>
+					<friction>0.35</friction>
+					<restitution>0</restitution>
+					<filter_categoryBits>1</filter_categoryBits>
+					<filter_groupIndex>0</filter_groupIndex>
+					<filter_maskBits>65535</filter_maskBits>
+					<fixture_type>POLYGON</fixture_type>
+
+
+					<polygons>
+
+                        <polygon>  -51.9670, 105.0330  ,  -51.9670, -51.9670  ,  105.0330, -51.9670 </polygon>
+
+					</polygons>
+
+				</fixture>
+
+			</fixtures>
+		</body>
+
+		<body name="pentagon">
+            <anchorpoint>0.5030,0.5000</anchorpoint>
+			<fixtures>
+
+				<fixture>
+					<density>10</density>
+					<friction>0.35</friction>
+					<restitution>0</restitution>
+					<filter_categoryBits>1</filter_categoryBits>
+					<filter_groupIndex>0</filter_groupIndex>
+					<filter_maskBits>65535</filter_maskBits>
+					<fixture_type>POLYGON</fixture_type>
+
+
+					<polygons>
+
+                        <polygon>  -0.9530, 72.0000  ,  -73.9530, 16.0000  ,  -47.9530, -72.0000  ,  46.0470, -72.0000  ,  73.0470, 16.0000 </polygon>
+
+					</polygons>
+
+				</fixture>
+
+			</fixtures>
+		</body>
+
+	</bodies>
+	<metadata>
+		<format>1</format>
+		<ptm_ratio>32</ptm_ratio>
+	</metadata>
+</bodydef>
+
+
+

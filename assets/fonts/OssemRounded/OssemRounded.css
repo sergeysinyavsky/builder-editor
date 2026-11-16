@@ -1,0 +1,9 @@
+﻿@font-face {
+    font-family:"OssemRounded";
+    src:    url("./OssemRounded.eot?")                format("eot"),
+            url("./OssemRounded.woff")                format("woff"),
+            url("./OssemRounded.ttf")                 format("truetype"),
+            url("./OssemRounded.svg#OssemRounded")    format("svg");
+    font-weight:normal;
+    font-style:normal;
+}

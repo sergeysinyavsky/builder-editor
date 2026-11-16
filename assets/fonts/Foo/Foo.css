@@ -1,0 +1,9 @@
+﻿@font-face {
+    font-family:"Foo";
+    src:    url("./Foo.eot?")                format("eot"),
+            url("./Foo.woff")                format("woff"),
+            url("./Foo.ttf")                 format("truetype"),
+            url("./Foo.svg#Foo")    format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
